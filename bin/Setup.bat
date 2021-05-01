@@ -33,7 +33,7 @@ if %var%==2 call :Menu-Files-Remove
 if %var%==3 call :Menu-Folders-Add
 if %var%==4 call :Menu-Folders-Remove
 if %var%==5 call :Menu-MakeFiles
-if %var%==6 goto exit
+if %var%==6 goto :Exit
 if %var% GTR 6 echo Error
 echo.
 goto :Menu

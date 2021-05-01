@@ -1,23 +1,24 @@
-@ECHO OFF
+@echo off
 
-SET args=%1
-IF NOT DEFINED args GOTO END
+set "args=%1"
+if not defined args goto :Exit
 
-ECHO %~n0 was called with the following arguments: %1
-ECHO.
+echo %~n0 was called with the following arguments: %1
+echo.
 
-MD %1\TEMP 1>nul 2>nul
-MOVE %1\*.7z %1\TEMP\ 1>nul 2>nul
-MOVE %1\*.rar %1\TEMP\ 1>nul 2>nul
-MOVE %1\*.zip %1\TEMP\ 1>nul 2>nul
+md %1\TEMP 1>nul 2>nul
+move %1\*.7z %1\TEMP\ 1>nul 2>nul
+move %1\*.rar %1\TEMP\ 1>nul 2>nul
+move %1\*.zip %1\TEMP\ 1>nul 2>nul
 
-FOR %%I IN (%1\*.*) DO "C:\Program Files\7-Zip\7z.exe" -mx9 a "%%~dpnI.7z" "%%I"
+for %%I in (%1\*.*) do "C:\Program Files\7-Zip\7z.exe" -mx9 a "%%~dpnI.7z" "%%I"
 
-MOVE %1\TEMP\*.7z %1\ 1>nul 2>nul
-MOVE %1\TEMP\*.rar %1\ 1>nul 2>nul
-MOVE %1\TEMP\*.zip %1\ 1>nul 2>nul
-RD %1\TEMP 1>nul 2>nul
-ECHO.
+move %1\TEMP\*.7z %1\ 1>nul 2>nul
+move %1\TEMP\*.rar %1\ 1>nul 2>nul
+move %1\TEMP\*.zip %1\ 1>nul 2>nul
+rd %1\TEMP 1>nul 2>nul
+echo.
 
-:END
-PAUSE
+:Exit
+echo Press any key to exit
+pause>nul
