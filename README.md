@@ -24,11 +24,11 @@ The context-menu entries are managed throught the windows registry, so you will 
 
 | Command | Description |
 |---------|-------------|
-| `setup 1` | Adds 'Compress Files' to folders context-menu. |
-| `setup 2` | Adds 'Compress Folders' to folders context-menu. |
-| `setup 3` | Removes 'Compress Files' from folders context-menu. |
-| `setup 4` | Removes 'Compress Folders' from folders context-menu. |
-| `setup 5` | Makes .reg files to manually add/remove entries on folders context-menu. |
-| `setup 6` | Exit. |
+| `Menu Option #1` | Adds 'Compress Files' to folders context-menu. |
+| `Menu Option #2` | Adds 'Compress Folders' to folders context-menu. |
+| `Menu Option #3` | Removes 'Compress Files' from folders context-menu. |
+| `Menu Option #4` | Removes 'Compress Folders' from folders context-menu. |
+| `Menu Option #5` | Makes '.reg' files to manually add/remove entries on folders context-menu. |
+| `Menu Option #6` | Exit. |
 
 Enjoy!
