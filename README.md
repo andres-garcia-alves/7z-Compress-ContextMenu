@@ -1,5 +1,5 @@
 # 7z-Compress-ContextMenu
-7-zip plugin to compress contents of given folder into **individual** .7z files
+7-Zip plugin to compress contents of given folder into **individual** '.7z' files
 
 This is the first public release of this proyect. If you want, please send me your feedback: andres.garcia.alves@gmail.com
 
