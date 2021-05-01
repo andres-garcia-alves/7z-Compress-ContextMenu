@@ -19,7 +19,7 @@ This is the first public release of this proyect. If you want, please send me yo
 
 ### Setup & Requirements
 
-Just doble-click 'Setup.bat' to manage the desired entries on windows folders context-menu.
+Just doble-click 'Setup.bat' to manage the desired entries on windows folders context-menu.  
 The context-menu entries are managed throught the windows registry, so you will be asked to accept those changes first.
 
 | Command | Description |
