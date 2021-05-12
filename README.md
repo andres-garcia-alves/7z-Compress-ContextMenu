@@ -1,4 +1,4 @@
-# 7z-Compress-ContextMenu
+# 7z Compress ContextMenu
 
 A 7-Zip batchfile plugin to compress contents of given folder into **individual** '.7z' files.
 
@@ -39,6 +39,6 @@ The context-menu entries are managed throught the windows registry, so you will 
 
 &nbsp;
 
-This is the first public release of this proyect.  
+This is the first public release of this project.  
 
 Please send me your feedback about this project: andres.garcia.alves@gmail.com
