@@ -1,7 +1,8 @@
 # 7z-Compress-ContextMenu
+
 A 7-Zip batchfile plugin to compress contents of given folder into **individual** '.7z' files.
 
-This is the first public release of this proyect. If you want, please send me your feedback: andres.garcia.alves@gmail.com
+&nbsp;
 
 ### Screenshots
 
@@ -36,4 +37,8 @@ The context-menu entries are managed throught the windows registry, so you will 
 - A working installation of 7-Zip is needed.
 - Currently the only accepted instalation path is: `C:\Program Files\7-Zip\7z.exe`
 
-Enjoy!
+&nbsp;
+
+This is the first public release of this proyect.  
+
+Please send me your feedback about this project: andres.garcia.alves@gmail.com
