@@ -37,8 +37,12 @@ The context-menu entries are managed throught the windows registry, so you will 
 - A working installation of 7-Zip is needed.
 - Currently the only accepted instalation path is: `C:\Program Files\7-Zip\7z.exe`
 
+### Version History
+
+v1.0 (2023.06.07) - Initial release.  
+v1.1 (2023.06.28) - Update electronic diagrams, adding case 3D model.  
+
 &nbsp;
 
-This is the first public release of this project.  
-
+This source code is licensed under GPL v3.0  
 Please send me your feedback about this project: andres.garcia.alves@gmail.com
