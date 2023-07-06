@@ -45,8 +45,7 @@ The context-menu entries are managed throught the windows registry, so you will 
 
 ### Version History
 
-v1.0 (2023.06.07) - Initial release.  
-v1.1 (2023.06.28) - Update electronic diagrams, adding case 3D model.  
+v1.0 (2021.05.01) - Initial release.  
 
 &nbsp;
 
