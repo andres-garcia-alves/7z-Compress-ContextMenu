@@ -18,6 +18,8 @@ A 7-Zip batchfile plugin to compress contents of given folder into **individual*
 |-------------------|-------------------|
 | ![](screenshots/screen-05.png) | ![](screenshots/screen-06.png) |
 
+&nbsp;
+
 ### Setup & Requirements
 
 Just doble-click 'Setup.bat' to manage the desired entries on windows folders context-menu.  
@@ -32,10 +34,14 @@ The context-menu entries are managed throught the windows registry, so you will 
 | `Menu Option #5` | Makes '.reg' files to manually add/remove entries on folders context-menu. |
 | `Menu Option #6` | Exit. |
 
+&nbsp;
+
 ### Limitations
 
 - A working installation of 7-Zip is needed.
 - Currently the only accepted instalation path is: `C:\Program Files\7-Zip\7z.exe`
+
+&nbsp;
 
 ### Version History
 
